@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  _api: 'http://localhost:5000'
-  //_api: 'https://upload-image-plum.vercel.app'
+  //_api: 'http://localhost:5000'
+  _api: 'https://upload-image-snr9.vercel.app'
 };
 
 
