@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  //_api: 'http://localhost:5000'
-  _api: 'https://image-upload-km8p.vercel.app'
+  _api: 'http://localhost:5000'
+  //_api: 'https://image-upload-km8p.vercel.app'
 };
 
 
