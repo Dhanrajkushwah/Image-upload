@@ -25,7 +25,7 @@ if (!fs.existsSync(uploadsDir)){
 }
 
 // MongoDB Connection
-mongoose.connect(process.env.MONGO_URI1 || 'mongodb+srv://Contas:nuouP4MyDhH0q3E4@cluster0.gkkofhc.mongodb.net/Uploadimage', {
+mongoose.connect(process.env.MONGO_URI || 'mongodb+srv://Contas:nuouP4MyDhH0q3E4@cluster0.gkkofhc.mongodb.net/Uploadimage', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     serverSelectionTimeoutMS: 30000,
